@@ -12,34 +12,13 @@
 </head>
 <body>
     <header>
-        <ul>
-    <li>
-        Služby
-    </li>
-    <li>
-        Portfolio
-    </li>
-    <li>
-        Reference
-    </li>
-    <li>
-        Eliška Boudová
-    </li>
-    <li>
-        Kontakt
-    </li>
-</ul>
+        {% include "partials/header.njk" %}
     </header>
         <main>
-            
-<h1>
-    Eliška Boudová
-</h1>
+            {{ content | safe }}
         </main>
         <footer>
-            <p>
-Eliška Boudová & Vendula Bezáková <3
-</p>
+            {% include "partials/footer.njk" %}
         </footer>
 </body>
 </html>
