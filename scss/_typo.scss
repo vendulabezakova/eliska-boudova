@@ -1,0 +1,10 @@
+@use "colors";
+
+body {
+    font-family: 'Nunito Sans', sans-serif;
+    color: colors.$color-paragraph;
+}
+
+h1, h2, h3 {
+    color: colors.$color-primary;
+}
