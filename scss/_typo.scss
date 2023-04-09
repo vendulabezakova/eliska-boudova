@@ -6,12 +6,20 @@ body {
 }
 
 h1, h2, h3 {
-    color: colors.$color-primary;
+    color: colors.$button-primary;
     margin: 0;
 }
 
-.hero h1, p {
+h2 {
     text-align: center;
+}
+
+.hero p, h1 {
+    text-align: center;
+}
+
+p {
+    text-align: left;
 }
 
 .hero h1 {
@@ -27,3 +35,4 @@ h1, h2, h3 {
     font-weight: 700;
     font-size: 1.5rem;
 }
+
