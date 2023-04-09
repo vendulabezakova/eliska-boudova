@@ -7,4 +7,19 @@ body {
 
 h1, h2, h3 {
     color: colors.$color-primary;
+    margin: 0;
+}
+
+.hero h1, p {
+    color: aliceblue;
+    text-align: center;
+    text-shadow: colors.$color-paragraph 3px 0 10px;
+}
+
+.hero h1 {
+    font-size: 2.4rem;
+}
+
+p {
+    font-size: 1.3rem;
 }
