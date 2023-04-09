@@ -5,9 +5,13 @@
 @use "button";
 @use "contact";
 @use "images";
+@use "usp";
 
 body {
     margin: 0;
     padding: 0;
 }
 
+section {
+    padding: 50px 0;
+}

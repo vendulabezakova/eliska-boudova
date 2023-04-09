@@ -1,0 +1,18 @@
+@use "colors";
+@use "typo";
+
+.icon {
+    height: 40px;
+    margin-right: 20px;
+    padding: 10px 0;
+}
+
+.icon-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.usp p {
+    font-size: 1.2rem;
+}
