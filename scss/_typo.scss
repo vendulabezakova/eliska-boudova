@@ -3,6 +3,7 @@
 body {
     font-family: 'Nunito Sans', sans-serif;
     color: colors.$color-paragraph;
+    line-height: 1.5;
 }
 
 h1, h2, h3 {
@@ -12,6 +13,7 @@ h1, h2, h3 {
 
 h2 {
     text-align: center;
+    font-size: 2rem;
 }
 
 .hero p, h1 {
@@ -20,6 +22,7 @@ h2 {
 
 p {
     text-align: left;
+    font-size: 1.2rem;
 }
 
 .hero h1 {
@@ -34,5 +37,9 @@ p {
     text-shadow: 2px 2px 4px #000000;
     font-weight: 700;
     font-size: 1.5rem;
+}
+
+li {
+    font-size: 1.1rem;
 }
 

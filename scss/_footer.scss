@@ -1,0 +1,12 @@
+@use "colors";
+@use "typo";
+
+footer {
+    padding: 10px 40px;
+    background-color: colors.$button-primary;
+    color: white;
+}
+
+footer p {
+    font-size: 1rem;
+}
