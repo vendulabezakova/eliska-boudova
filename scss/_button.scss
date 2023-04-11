@@ -1,44 +1,38 @@
 @use "colors";
 
 .button-cta {
-    background-color: colors.$color-secondary;
-    border: 0;
-    border-radius: 10px;
-    box-sizing: border-box;
-    color: #fff;
-    text-shadow: 1px 1px 2px #000000;
-    cursor: pointer;
-    font-size: 16px;
-    font-weight: 700;
-    height: 54px;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 3px;
-    text-decoration: none;
-    text-transform: uppercase;
-    user-select: none;
-    -webkit-user-select: none;
-    touch-action: manipulation;
-    margin: auto;
-  }
-  
-  .button-cta:active {
-    outline: 0;
-  }
-  
-  .button-cta:hover {
-    outline: 0;
-  }
-  
-  .button-cta span {
-    transition: all 200ms;
-  }
-  
-  .button-cta:hover span {
-    transform: scale(.9);
-    opacity: .75;
-  }
-  /*
+  background-color: colors.$color-secondary;
+  border: 0;
+  border-radius: 10px;
+  box-sizing: border-box;
+  color: #fff;
+  text-shadow: 1px 1px 2px #000000;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 700;
+  height: 54px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 3px;
+  text-decoration: none;
+  text-transform: uppercase;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  margin: auto;
+}
+
+.button-cta:active {
+  background-color: #e09b11;
+}
+
+.button-cta:hover {
+  background-color: #e09b11;
+}
+
+
+
+/*
   @media screen and (max-width: 991px) {
     .button-75 {
       font-size: 15px;
@@ -50,23 +44,32 @@
     }
   }*/
 
-  .button-secondary {
-    background-color: colors.$button-primary;
-    border: 0;
-    border-radius: 10px;
-    box-sizing: border-box;
-    color: #fff;
-    text-shadow: 1px 1px 2px #000000;
-    cursor: pointer;
-    font-size: 16px;
-    font-weight: 700;
-    height: 54px;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 3px;
-    text-decoration: none;
-    text-transform: uppercase;
-    user-select: none;
-    -webkit-user-select: none;
-    touch-action: manipulation;
-  }
+.button-secondary {
+  background-color: colors.$button-primary;
+  border: 0;
+  border-radius: 10px;
+  box-sizing: border-box;
+  color: #fff;
+  text-shadow: 1px 1px 2px #000000;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 700;
+  height: 54px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 3px;
+  text-decoration: none;
+  text-transform: uppercase;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  margin-top: 20px;
+}
+
+.button-secondary:hover {
+  background-color: colors.$button-secondary;
+}
+
+.button-secondary:active {
+  background-color: colors.$button-secondary;
+}

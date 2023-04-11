@@ -72,6 +72,10 @@ nav ul {
 nav {
   background-color: #394f49;
   height: 65px;
+  position: fixed; /* Make it stick/fixed */
+  top: 0; /* Stay on top */
+  width: 100%; /* Full width */
+  transition: top 0.3s; /* Transition effect when sliding down (and up) */
 }
 
 #menuToggle {
@@ -190,33 +194,24 @@ footer p {
 }
 
 .button-cta:active {
-  outline: 0;
+  background-color: #e09b11;
 }
 
 .button-cta:hover {
-  outline: 0;
-}
-
-.button-cta span {
-  transition: all 200ms;
-}
-
-.button-cta:hover span {
-  transform: scale(0.9);
-  opacity: 0.75;
+  background-color: #e09b11;
 }
 
 /*
-@media screen and (max-width: 991px) {
-  .button-75 {
-    font-size: 15px;
-    height: 50px;
-  }
+  @media screen and (max-width: 991px) {
+    .button-75 {
+      font-size: 15px;
+      height: 50px;
+    }
 
-  .button-75 span {
-    line-height: 50px;
-  }
-}*/
+    .button-75 span {
+      line-height: 50px;
+    }
+  }*/
 .button-secondary {
   background-color: #394f49;
   border: 0;
@@ -237,6 +232,15 @@ footer p {
        user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
+  margin-top: 20px;
+}
+
+.button-secondary:hover {
+  background-color: #2a3a36;
+}
+
+.button-secondary:active {
+  background-color: #2a3a36;
 }
 
 .hero {
@@ -248,6 +252,7 @@ footer p {
   padding-top: 15%;
   display: flex;
   flex-direction: column;
+  margin-top: 30px;
 }
 
 .section-img {

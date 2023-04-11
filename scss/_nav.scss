@@ -25,11 +25,16 @@ a {
     height: 91%;
     background-color: #F5F6FA;
     overflow: hidden;
+
   }
 
   nav {
     background-color: colors.$button-primary;
     height: 65px;
+    position: fixed; /* Make it stick/fixed */
+  top: 0; /* Stay on top */
+  width: 100%; /* Full width */
+  transition: top 0.3s; /* Transition effect when sliding down (and up) */
   }
   
   #menuToggle {
