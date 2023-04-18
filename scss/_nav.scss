@@ -1,7 +1,7 @@
 @use "typo";
 @use "colors";
 
-a {
+nav a {
     text-decoration: none;
     opacity:1;
     font-size: 1.5em;
@@ -9,7 +9,7 @@ a {
     transition: 200ms;
     color: colors.$color-paragraph;
   }
-  a:hover {
+  nav a:hover {
     opacity:0.5;
   }
   

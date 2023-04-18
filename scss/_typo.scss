@@ -43,3 +43,12 @@ li {
     font-size: 1.1rem;
 }
 
+a {
+    text-decoration: none;
+    opacity:1;
+    transition: 200ms;
+    color: colors.$button-primary;
+  }
+  a:hover {
+    opacity:0.5;
+  }
