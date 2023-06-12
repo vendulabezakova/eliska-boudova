@@ -294,7 +294,6 @@ footer p {
 }
 
 .quote {
-  position: relative;
   letter-spacing: 0.03em;
 }
 .quote:before {
