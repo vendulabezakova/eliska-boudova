@@ -52,3 +52,19 @@ a {
   a:hover {
     opacity:0.5;
   }
+
+  @media only screen and (min-width: 992px) {
+    .hero h1 {
+        font-size: 6rem;
+        color: rgb(255, 255, 255);
+        text-shadow: 2px 2px 4px #000000;
+        font-weight: 700;
+    }
+    
+    .hero p {
+        color: aliceblue;
+        text-shadow: 2px 2px 4px #000000;
+        font-weight: 700;
+        font-size: 4rem;
+    }
+  }

@@ -53,6 +53,20 @@ a:hover {
   opacity: 0.5;
 }
 
+@media only screen and (min-width: 992px) {
+  .hero h1 {
+    font-size: 6rem;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 4px #000000;
+    font-weight: 700;
+  }
+  .hero p {
+    color: aliceblue;
+    text-shadow: 2px 2px 4px #000000;
+    font-weight: 700;
+    font-size: 4rem;
+  }
+}
 nav a {
   text-decoration: none;
   opacity: 1;
@@ -254,6 +268,13 @@ footer p {
   background-color: #2a3a36;
 }
 
+@media only screen and (min-width: 992px) {
+  .button-cta {
+    height: 94px;
+    padding: 20px 40px;
+    font-size: 26px;
+  }
+}
 .hero {
   background-image: linear-gradient(to right, rgba(0, 0, 0, 0.025), rgba(0, 0, 0, 0.744)), url("/images/eliska-boudova-hero-placeholder.jpg");
   background-repeat: no-repeat;
@@ -274,6 +295,15 @@ footer p {
      object-fit: cover;
 }
 
+@media only screen and (min-width: 992px) {
+  .hero {
+    background-size: cover;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.025), rgba(0, 0, 0, 0.744)), url("/images/eliska-boudova-hero-placeholder.jpg");
+    background-position: 45% 55%;
+    height: 650px;
+    padding-top: 13%;
+  }
+}
 .icon {
   height: 40px;
   margin: 0 20px 0 20px;
