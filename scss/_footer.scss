@@ -10,3 +10,12 @@ footer {
 footer p {
     font-size: 1rem;
 }
+
+@media only screen and (min-width: 992px) {
+footer {
+    padding: 50px 20rem;
+}
+footer p {
+    font-size: 1.2rem;
+}
+}

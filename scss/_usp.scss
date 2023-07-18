@@ -19,3 +19,22 @@
 .products {
     margin-left: -25px;
 }
+
+@media only screen and (min-width: 992px) {
+    .products p {
+        font-size: 1.9rem;
+    }
+
+    .icons {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+}
+
+.icon-text {
+    align-items: center;
+}
+.products {
+    padding: 80px 15rem 20px 15rem;
+}
+}
