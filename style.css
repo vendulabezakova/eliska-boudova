@@ -24,7 +24,7 @@ header {
         text-align: center;
 
         .btn {
-            background-color: #C4AF9A;
+            background-color: #DAD2BC;
             color: #ffffff;
             padding: 20px 30px;
             text-decoration: none;
@@ -34,11 +34,16 @@ header {
         }
 
         .btn:hover {
-            background-color: #b39576;
+            background-color: #bdb7a4;
         }
 
         h1 {
             text-shadow: 4px 0px 7px rgba(0,0,0,0.6);
+        }
+
+        h2 {
+            font-size: 32px;
+            padding-bottom: 50px;
         }
     }
 }
@@ -97,7 +102,7 @@ nav {
 .menu-toggle .hamburger {
     width: 30px;
     height: 3px;
-    background-color: #70798C;
+    background-color: #fafafa;
     margin: 6px 0;
 }
 
@@ -127,10 +132,6 @@ nav {
 }
 
 .text-block {
-    background-color: #70798C;
-    padding: 20px;
-    border-radius: 20px;
-    text-align: center;
     margin: 50px 20rem;
     padding: 50px;
 
@@ -143,6 +144,24 @@ nav {
         font-size: 28px;
         padding-bottom: 20px;
     }
+}
+
+.rounded-box {
+    background-color: #70798C;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-image {
+    position: relative;
+    top: 70px;
+    border-radius: 20px;
+}
+
+.text-content {
+    padding: 80px;
+    text-align: left;
 }
 
 .contact-section {
@@ -164,12 +183,16 @@ footer {
 
 
 @media (max-width: 768px) {
+        h1 {
+            font-size: 24px;
+        }
+
         .menu-toggle {
             display: flex;
             justify-content: center;
             align-items: center;
             cursor: pointer;
-            margin-right: 20px; /* Vzdálenost od pravého okraje */
+            margin-right: 50px;
         }
     
         .menu-items {
@@ -180,17 +203,29 @@ footer {
             display: flex;
             flex-direction: column;
             align-items: center;
-            background-color: #1E1E24;
+            background-color: #70798C;
             position: absolute;
-            top: 50px; /* Vzdálenost od horního okraje */
-            right: 0;
+            top: 58px; /* Vzdálenost od horního okraje */
             width: 100%;
-            padding: 10px 0;
+            padding: 20px 0;
         }
 
         .about-section {
-            padding: 50px 5rem;
+            padding: 50px 20px;
             text-align: center;
+        }
+
+        .text-block {
+            margin: 50px 20px;
+
+            h2 {
+                font-size: 18px;
+            }
+        }
+
+        .btn {
+            padding: 10px;
+            font-size: 18px;
         }
 }
 
