@@ -1,0 +1,196 @@
+body {
+    font-family: "Wix Madefor Display", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    font-size: 18px;
+    color: #252323;
+}
+
+header {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.025), rgba(0, 0, 0, 0.744)), url('media/eliska-boudova-hero-placeholder.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    font-size: 48px;
+
+    .header-content {
+        text-align: center;
+
+        .btn {
+            background-color: #C4AF9A;
+            color: #ffffff;
+            padding: 20px 30px;
+            text-decoration: none;
+            border-radius: 20px;
+            font-size: 28px;
+            font-weight: 600;
+        }
+
+        .btn:hover {
+            background-color: #b39576;
+        }
+
+        h1 {
+            text-shadow: 4px 0px 7px rgba(0,0,0,0.6);
+        }
+    }
+}
+
+/* Základní styly pro menu */
+nav {
+    background-color: #ffffff66;
+    padding: 10px;;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+.logo {
+    margin-left: 50px; /* Vzdálenost od levého okraje */
+}
+
+.logo img {
+    height: 50px;
+}
+
+.menu-items {
+    list-style: none;
+    display: flex;
+    margin-right: 50px; /* Vzdálenost od pravého okraje */
+    align-items: center;
+}
+
+.menu-items li {
+    margin-left: 20px; /* Vzdálenost mezi položkami menu */
+}
+
+.menu-items li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 21px;
+    padding: 20px;
+    font-weight: 600;
+}
+
+.localization {
+    background-color: #70798C;
+    padding: 20px 0;
+    border-radius: 50%;
+}
+
+/* Styly pro hamburger menu */
+.menu-toggle {
+    display: none; /* Skryjeme hamburger menu na zařízeních s větší obrazovkou */
+}
+
+.menu-toggle .hamburger {
+    width: 30px;
+    height: 3px;
+    background-color: #70798C;
+    margin: 6px 0;
+}
+
+.usp-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px 2rem;
+
+    .usp-item {
+        text-align: center;
+
+        img {
+            width: 50px;
+            height: 50px;
+        }
+
+        p {
+            font-size: 21px;
+        }
+    }
+}
+
+.about-section {
+    padding: 50px 20rem;
+    text-align: center;
+}
+
+.text-block {
+    background-color: #70798C;
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+    margin: 50px 20rem;
+    padding: 50px;
+
+    p {
+        color: #F5F1ED;
+    }
+
+    h2 {
+        color: #F5F1ED;
+        font-size: 28px;
+        padding-bottom: 20px;
+    }
+}
+
+.contact-section {
+    background-color: #F5F1ED;
+    padding: 50px 0;
+    text-align: center;
+}
+
+footer {
+    background-color: #70798C;
+    text-align: center;
+    padding: 20px 0;
+
+    p { 
+        color: #F5F1ED;
+    }
+}
+
+
+
+@media (max-width: 768px) {
+        .menu-toggle {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+            margin-right: 20px; /* Vzdálenost od pravého okraje */
+        }
+    
+        .menu-items {
+            display: none; /* Skryjeme položky menu na začátku */
+        }
+    
+        nav.open .menu-items {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: #1E1E24;
+            position: absolute;
+            top: 50px; /* Vzdálenost od horního okraje */
+            right: 0;
+            width: 100%;
+            padding: 10px 0;
+        }
+
+        .about-section {
+            padding: 50px 5rem;
+            text-align: center;
+        }
+}
+
