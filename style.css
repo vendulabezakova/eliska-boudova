@@ -10,7 +10,7 @@ p {
 }
 
 header {
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.025), rgba(0, 0, 0, 0.744)), url('media/eliska-boudova-hero-placeholder.jpg');
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.025), rgba(0, 0, 0, 0.744)), url('media/pexels-gustavo-fring-4017430.jpg');
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -69,6 +69,14 @@ nav {
     height: 50px;
 }
 
+.podpis p {
+    color: #F5F1ED;
+    font-family: "Ms Madi", cursive;
+    font-size: 70px;
+    margin: 0;
+    padding-left: 20px;
+}
+
 .menu-items {
     list-style: none;
     display: flex;
@@ -89,9 +97,10 @@ nav {
 }
 
 .localization {
-    background-color: #70798C;
-    padding: 20px 0;
-    border-radius: 50%;
+
+    img {
+        max-height: 40px;
+    }
 }
 
 /* Styly pro hamburger menu */
