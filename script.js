@@ -42,3 +42,26 @@ window.addEventListener('DOMContentLoaded', function() {
         }
     }
 });
+
+//Animace na načítání čísel
+const numberElement = document.getElementById('number');
+// Počáteční hodnota
+let number = 0;
+// Konečná hodnota
+const targetNumber = 100;
+// Rychlost animace (počet kroků na sekundu)
+const speed = 100; // Například 100 kroků za sekundu
+// Funkce pro animaci čísla
+function animateNumber() {
+    // Inkrementace čísla
+    number++;
+    // Aktualizace textu elementu
+    numberElement.textContent = number;
+    // Podmínka pro zastavení animace, když dosáhneme cílového čísla
+    if (number === targetNumber) {
+        clearInterval(intervalId); // Zastavení intervalu
+    }
+}
+// Spuštění animace s definovanou rychlostí
+const intervalId = setInterval(animateNumber, 1000 / speed); // Vytvoření intervalu
+//Konec animace na načítání čísel

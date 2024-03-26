@@ -50,7 +50,7 @@ header {
 
 /* Základní styly pro menu */
 nav {
-    background-color: #ffffff66;
+    background-color: #70798c71;
     padding: 10px;;
     display: flex;
     justify-content: space-between;
@@ -136,7 +136,7 @@ nav {
 }
 
 .about-section {
-    padding: 50px 20rem;
+    padding: 150px 20rem 75px 20rem;
     text-align: center;
 }
 
@@ -238,3 +238,6 @@ footer {
         }
 }
 
+.number-animation {
+    font-size: 24px;
+}
