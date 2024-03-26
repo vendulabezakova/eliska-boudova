@@ -137,7 +137,19 @@ nav {
 
 .about-section {
     padding: 150px 20rem 75px 20rem;
-    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+
+    .about-text {
+        max-width: 50%;
+
+    }
+
+    .number-animation {
+        font-size: 24px;
+    }
+
 }
 
 .text-block {
@@ -238,6 +250,3 @@ footer {
         }
 }
 
-.number-animation {
-    font-size: 24px;
-}
