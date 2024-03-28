@@ -51,7 +51,6 @@ header {
 /* Základní styly pro menu */
 nav {
     background-color: #70798c71;
-    padding: 10px;;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -66,7 +65,7 @@ nav {
 }
 
 .logo img {
-    height: 50px;
+    height: 45px;
 }
 
 .podpis p {
@@ -139,7 +138,7 @@ nav {
     padding: 150px 20rem 75px 20rem;
     display: flex;
     justify-content: space-between;
-    align-items: flex-start;
+    align-items: center;
 
     .about-text {
         max-width: 50%;
@@ -172,11 +171,10 @@ nav {
     border-radius: 20px;
     display: flex;
     justify-content: space-between;
+    align-items: end;
 }
 
 .left-image {
-    position: relative;
-    top: 70px;
     border-radius: 20px;
 }
 
