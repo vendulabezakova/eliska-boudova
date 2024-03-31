@@ -7,6 +7,7 @@ body {
 p {
     font-size: 18px;
     color: #252323;
+    line-height: 1.5;
 }
 
 header {
@@ -151,7 +152,11 @@ nav {
 
 }
 
-.text-block {
+.rounded-box {
+    background-color: #70798C;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
     margin: 50px 20rem;
     padding: 50px;
 
@@ -166,21 +171,22 @@ nav {
     }
 }
 
-.rounded-box {
-    background-color: #70798C;
-    border-radius: 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: end;
-}
-
 .left-image {
     border-radius: 20px;
+    object-fit: fill;
 }
 
 .text-content {
-    padding: 80px;
+    padding: 40px 80px;
     text-align: left;
+    position: relative;
+
+    img {
+        position: absolute;
+        transform: rotate(45deg);
+        top: -150px;
+        right: -170px;
+    }
 }
 
 .contact-section {
